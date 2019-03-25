@@ -5,6 +5,6 @@ import './index.css';
 
 import HolaMundo from './components/hola-mundo/HolaMundo';
 
-render(<HolaMundo nombre='Luis' edad='23' />, document.getElementById('root'));
+render(<HolaMundo nombre='Luis' edad='23' tipo='nota' />, document.getElementById('root'));
 
 serviceWorker.unregister();

@@ -10,8 +10,7 @@ import './index.css';
 
 // Componentes
 import Header from './components/common/header/Header';
-import Liga from './components/liga/Liga';
-import Calendario from './components/calendario/Calendario';
+import Router from './Router';
 
 // The CODE!
 const Root = () => {
@@ -20,8 +19,7 @@ const Root = () => {
             <CssBaseline />
             <Header />
             <div className="contenedor">
-                <Liga />
-                <Calendario />
+                <Router />
             </div>
         </div>
     )

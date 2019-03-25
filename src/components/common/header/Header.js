@@ -19,7 +19,7 @@ class Header extends Component {
                         </Typography>
 
                         <Button color="inherit" href='/liga'>Equipos</Button>
-                        <Button color="inherit" href='/calendario'>Calendarios</Button>
+                        <Button color="inherit" href='/calendarios'>Calendarios</Button>
                     </Toolbar>
                 </AppBar>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import './HolaMundo.css';
 
 class HolaMundo extends React.Component {
     render() {

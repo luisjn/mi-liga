@@ -23,6 +23,20 @@ class Equipo extends Component {
     this.setState({ fav });
   }
 
+  componentDidMount() {
+    const localFavs = localStorage.getItem(this.props.nombre);
+    
+    if (localFavs) {
+      this.setState({
+        fav: JSON.parse(localFavs)        
+      });
+    }
+  }
+
+  componentDidUpdate() {
+    localStorage.setItem(this.props.nombre, JSON.stringify(this.state.fav));
+  }
+
   render() {
     return (
       <div>
